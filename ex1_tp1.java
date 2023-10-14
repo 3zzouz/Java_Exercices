@@ -1,9 +1,9 @@
-public class BankAccount {
+public class ex1_tp1 {
     private int accountNumber;
     private String accountHolderName;
     private int balance;
 
-    public BankAccount(int acc, String name, int bal) {
+    public ex1_tp1(int acc, String name, int bal) {
         if (bal < 0)
             throw new Error("Balance <0", null);
         if (acc <= 0)
@@ -40,7 +40,7 @@ public class BankAccount {
     }
 
     public static void main(String[] args) {
-        BankAccount account = new BankAccount(555, "John Doe", 1000);
+        ex1_tp1 account = new ex1_tp1(555, "John Doe", 1000);
        // BankAccount account2 = new BankAccount(0, "az", 5);
        // BankAccount account3 = new BankAccount(98, "", 5);
        // BankAccount account4 = new BankAccount(7, "az", -5);
